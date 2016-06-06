@@ -1,0 +1,38 @@
+{
+  "name": "mewo-pi-device",
+  "version": "1.0.0",
+  "description": "A MeWo device wrapper for Raspberry Pi GPIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxprog/mewo-pi-device.git"
+  },
+  "keywords": [
+    "raspberry pi",
+    "amazon echo",
+    "home automation"
+  ],
+  "author": "Matt Hackmann <matt@dxprog.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/dxprog/mewo-pi-device/issues"
+  },
+  "homepage": "https://github.com/dxprog/mewo-pi-device#readme",
+  "dependencies": {
+    "mewo": "^1.0.0",
+    "rpi-gpio": "^0.7.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3",
+    "mocha-sinon": "^1.1.5",
+    "proxyquire": "^1.7.9",
+    "sinon": "^1.17.4"
+  }
+}
