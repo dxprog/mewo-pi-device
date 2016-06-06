@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dxprog/mewo-pi-device.svg)](https://travis-ci.org/dxprog/mewo-pi-device)
+
 # MeWo Pi Device
 
 A node library that allows a MeWo emulated hub to control GPIO pins on a Raspberry Pi.
